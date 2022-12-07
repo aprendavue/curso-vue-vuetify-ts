@@ -1,11 +1,13 @@
 <template>
   <v-app>
+    <nav class="text-center">
+      <router-link :to="{ name: 'HomeView' }">Home</router-link> |
+      <router-link :to="{ name: 'AboutView' }">About</router-link>
+    </nav>
     <v-main>
-      <HelloWorld />
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
-<script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
-</script>
+<script setup lang="ts"></script>
