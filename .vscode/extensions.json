@@ -2,11 +2,11 @@
   "recommendations": [
     "vuetifyjs.vuetify-vscode",
     "vue.volar",
-    "hollowtree.vue-snippets",
     "esbenp.prettier-vscode",
     "pkief.material-icon-theme",
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
-    "dracula-theme.theme-dracula"
+    "dracula-theme.theme-dracula",
+    "sdras.vue-vscode-snippets"
   ]
 }
